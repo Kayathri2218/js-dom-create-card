@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    width: 90%;
+    margin: auto;
+}
+
+.row-card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px 0 60px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.col-card {
+    padding: 10px;
+}
+
+.content-head {
+    padding: 10px 0 10px 0;
+}
+.col {
+    width: 25%;
+    padding: 10px;
+}
+
+.content-rate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-rate span {
+    background: green;
+    color: #fff;
+    padding: 5px;
+}
+
+.off-con p{
+    padding: 10px 0 10px 0;
+}
+
+h3{
+    color: #fff;
+}
+.col:hover h3 {
+    color: blue;
+    text-align: center;
+}
+
+.col:hover {
+    box-shadow: 0 0 5px #000;
+}
